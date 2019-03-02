@@ -1,0 +1,4 @@
+1. CUD account + login
+2. Search by name + transId
+3. Updated ReceivingName + ReceivingTime => auto change Status + Employee
+4. Import Data in current day (interval 4hrs)

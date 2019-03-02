@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: baseline;
+    background-color: orangered;
+    box-shadow: rosybrown;
+    .flex-left {
+        flex-grow: 1;
+        margin-left: 10px
+    }
+    .flex-right {
+        flex-grow: 1;
+        margin-right: 20px;
+    }
+}
+
+.flex-left a img {
+    height: 60px;
+    vertical-align: unset
+}
+
+.btn-custom {
+    font-weight: bold;
+    margin-bottom: 9px;
+    color: white;
+}
+
+.btn-custom :hover {
+    color: orangered !important;
+    background-color: white !important;
+}
+
